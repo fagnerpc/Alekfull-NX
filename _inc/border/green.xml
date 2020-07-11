@@ -1,0 +1,48 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+      <image name="selectborder" extra="true">
+      <pos>0.0861 0.5376</pos>
+      <size>0.2666 0.431</size>
+      <path>./_inc/select.png</path>
+      <color>00ff00</color>
+      <zIndex>43</zIndex>
+      </image>
+   </view>
+
+<customView name="NX View (Default)" inherits="grid" displayName="${nxViewName}">
+      <image name="selectborder" extra="true">
+      <pos>0.0800 0.5376</pos>
+      <size>0.276 0.431</size>
+      <path>./_inc/select.png</path>
+      <color>00ff00</color>
+      <zIndex>180</zIndex>
+      </image>
+</customView>
+
+
+<customView name="NX View (Detailed)" inherits="grid" displayName="${nxdViewName}">
+     <image name="selectborder" extra="true">
+      <pos>0.0800 0.5376</pos>
+      <size>0.276 0.431</size>>
+      <path>./_inc/select.png</path>
+      <color>00ff00</color>
+      <zIndex>180</zIndex>
+      </image>
+</customView>
+
+
+<customView name="NX View (Static Image)" inherits="grid" displayName="${nxsViewName}">
+      <image name="selectborder" extra="true">
+      <pos>0.0800 0.5376</pos>
+      <size>0.276 0.431</size>
+      <path>./_inc/select.png</path>
+      <color>00ff00</color>
+      <zIndex>180</zIndex>
+      </image>
+</customView>
+
+
+</theme>

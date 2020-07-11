@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+
+<view name="splash">
+		<splash name="splash">
+			<backgroundColor>FFFFFFFF</backgroundColor>
+		</splash>
+
+		<image name="background">
+			<path>./assets/arts/splash.png</path>
+		</image>
+
+		<text name="label">
+			<pos>0.68 0.89</pos>
+			<fontSize>0.039</fontSize>
+			<color>FFFFFFFF</color>
+			<alignment>left</alignment>
+			<glowColor>00000016</glowColor>
+			<glowSize>2</glowSize>
+			<glowOffset>2</glowOffset>
+			<fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+		</text>
+		
+		<image name="progressbar" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<minSize>1 1</minSize>
+			<path>./assets/arts/splash.png</path>
+			<color>a4a4a4</color>
+			<colorEnd>FFFFFFFF</colorEnd>
+			<roundCorners>0</roundCorners>
+			<zIndex>1</zIndex>
+		</image>
+		
+		<image name="progressbar:active" extra="true">
+			<tile>true</tile>
+			<path>./assets/arts/splashf.png</path>
+			<size>1 1</size>
+			<color>a4a4a4</color>
+			<colorEnd>FFFFFF</colorEnd>
+			<zIndex>1</zIndex>
+		</image>
+	</view>
+</theme>

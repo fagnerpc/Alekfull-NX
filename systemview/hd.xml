@@ -1,0 +1,31 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>-0.660 -0.10</pos>
+        <size>1.76 1</size>
+        <logoScale>1.12</logoScale>
+        <logoSize>0.28 0.28</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>10</maxLogoCount>
+        <zIndex>42</zIndex>
+        <logoAlignment>bottom</logoAlignment>
+		<defaultTransition>slide</defaultTransition>			
+      </carousel>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/arts/720p/${system.theme}.jpg</path>
+      </image>	  
+	  
+	<image name="logo">
+		<path>./../assets/logos/default.jpg</path>
+		<path>./../assets/logos/${system.theme}.jpg</path>
+	</image>    
+</view> 
+</theme>

@@ -1,0 +1,128 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/ovbc.png</path>
+         <zIndex>41</zIndex>
+      </image>
+	  
+	  
+      <helpsystem name="help">
+         <textColor>cbcbcb</textColor>
+         <iconColor>FFFFFF</iconColor>
+		 <pos>0.53 0.942</pos>
+		 <fontPath>./../_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		 <fontSize>0.0215</fontSize>
+      </helpsystem>	 
+	  
+      <text name="systemInfo">
+         <alignment>left</alignment>
+         <pos>0.13 0.924</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>cbcbcb</color>
+         <fontPath>./../_inc/fonts/Oxygen-Regular.ttf</fontPath>
+	     <fontSize>0.0215</fontSize>         
+      </text>	  
+</view>
+
+  <view name="menu">
+	<menuText name="menufooter">
+		<color>777777FF</color>
+	</menuText>
+	<menuText name="menutext"> 
+		<color>DFDCDC</color>
+		<separatorColor>222222</separatorColor>
+		<selectorColor>0293ab</selectorColor>
+		<selectedColor>FFFFFF</selectedColor>
+	</menuText>
+	<menuTextSmall name="menutextsmall">
+		<color>e3e3e3</color>
+	</menuTextSmall>
+	<menuText name="menutitle">
+		<color>DFECFA</color>
+	</menuText>
+	<menuBackground name="menubg">
+	    <color>0a0b0c</color>
+		<path>./../_inc/back.png</path>
+		<fadePath>./../_inc/fade.png</fadePath>
+	</menuBackground>
+</view>
+
+  <view name="basic">
+      <image name="logo">
+		<pos>0.14 0.925</pos>
+		<maxSize>0.10 0.10</maxSize>
+		<path>./../assets/logos2/${system.theme}.png</path>
+      </image>
+	  
+      <helpsystem name="help">
+         <fontPath>./../_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0215</fontSize>     
+         <pos>0.30 0.942</pos>      
+         <textColor>636363</textColor>
+      </helpsystem>
+	  
+      <textlist name="gamelist">
+         <selectorColor>403c3e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+      </textlist>
+	  
+      <image name="background" extra="true">
+         <path>./../_inc/basic2.png</path>
+      </image>
+    
+   </view>  
+ 
+   <view name="detailed">
+      <helpsystem name="help">
+         <textColor>636363</textColor>
+      </helpsystem>	  
+	
+      <textlist name="gamelist">
+         <selectorColor>403c3e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+      </textlist>
+
+      <image name="background" extra="true">
+         <path>./../_inc/default-detailed2.png</path>
+      </image>
+  
+		<datetime name="md_releasedate">
+			<color>726f70</color>
+		</datetime>
+
+		<text name="md_developer">
+			<color>726f70</color>
+		</text>
+	  
+	  		<text name="md_genre">
+			<color>726f70</color>
+		</text>
+	
+		<text name="md_developer, md_genre, md_description">
+			<color>726f70</color>
+		</text>
+   </view>
+ 
+  <view name="grid">
+       <image name="background" extra="true">
+         <path>./../assets/govblack.png</path>
+         <zIndex>11</zIndex>
+      </image>
+	  
+	  <helpsystem name="help">
+         <textColor>cbcbcb</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>	
+  </view>
+ 
+</theme>

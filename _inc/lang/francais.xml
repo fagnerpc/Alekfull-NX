@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+		
+		<langue>fr</langue>
+		
+    <tilesViewName>Vignettes</tilesViewName>
+	<nxViewName>Vue NX (par défaut)</nxViewName>
+    <nxdViewName>Vue NX (détaillée)</nxdViewName>
+	<nxsViewName>Vue NX (image fixe)</nxsViewName>
+    <basicGridName>Boîtes</basicGridName>
+    <nxbViewName>Vue NX (boîtes)</nxbViewName>
+	<yes>Oui</yes>
+	<no>Non</no>
+    <none>Aucun</none>
+    <sysmusic>Sur</sysmusic>
+    <nomusic>Aléatoire</nomusic>
+    <silence>Pas de musique de fond</silence>	
+	<default>Par défaut</default>
+	<darkbg>Gris</darkbg>
+	<lightbg>Blanc</lightbg>
+	<bluebg>Bleu</bluebg>
+	<blackbg>Noir</blackbg>
+	<lite>Lite 540p</lite>
+	<psxdef>PSX standard</psxdef>
+	<sicons>Icônes standard</sicons>
+	<psxalt>PSX alternatif</psxalt>	
+	<snesalt>SNES alternatifs</snesalt>
+	<bpurple>Violet</bpurple>	
+	<byellow>Jaune</byellow>	
+	<bpink>Rose</bpink>	
+	<bgreen>Vert</bgreen>	
+	
+    <subset.systemview>Résolution des arts</subset.systemview>
+    <subset.colorset>Ensemble de couleurs de thème par défaut</subset.colorset>
+    <subset.iconset>Icônes de menu</subset.iconset>
+    <subset.shader>Shaders de thème</subset.shader>
+	<subset.music>System Music</subset.music>	
+	<subset.bordercolor>Sélection de la couleur de la bordure</subset.bordercolor>
+	</variables>
+	
+</theme>

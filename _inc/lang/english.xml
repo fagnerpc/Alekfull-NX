@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+		
+		<langue>en</langue>
+		
+    <tilesViewName>Tiles</tilesViewName>
+	<nxViewName>NX View (Default)</nxViewName>
+    <nxdViewName>NX View (Detailed)</nxdViewName>
+	<nxsViewName>NX View (Still Image)</nxsViewName>
+    <basicGridName>Boxes</basicGridName>
+    <nxbViewName>NX View (Boxes)</nxbViewName>
+	<yes>Yes</yes>
+	<no>No</no>
+    <none>None</none>
+    <sysmusic>On</sysmusic>
+    <nomusic>Random</nomusic>
+    <silence>No Background Music</silence>	
+	<default>Default</default>
+	<darkbg>Grey</darkbg>
+	<lightbg>White</lightbg>
+	<bluebg>Blue</bluebg>
+	<blackbg>Black</blackbg>
+	<lite>Lite 540p</lite>
+	<psxdef>Standard PSX</psxdef>
+	<sicons>Standard Icons</sicons>
+	<psxalt>Alternative PSX</psxalt>	
+	<snesalt>Alternative SNES</snesalt>
+	<bpurple>Purple</bpurple>	
+	<byellow>Yellow</byellow>	
+	<bpink>Pink</bpink>	
+	<bgreen>Green</bgreen>	
+	
+    <subset.systemview>Arts Resolution</subset.systemview>
+    <subset.colorset>Default Theme colorset</subset.colorset>
+    <subset.iconset>Menu icons</subset.iconset>
+    <subset.shader>Theme Shaders</subset.shader>
+	<subset.music>System Music</subset.music>	
+	<subset.bordercolor>Selection Border Color</subset.bordercolor>
+	</variables>
+	
+</theme>

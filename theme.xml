@@ -1,0 +1,713 @@
+<!--
+ALEKFULL NX theme by fagnerpc
+facebook.com/alekfull.arcade
+
+Inspired by Switch interface
+Logos by Lilbud and fagnerpc
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./config.xml</include>
+   
+<feature supported="carousel">
+   <view name="system">
+	<sound name="directory">
+         <path>./assets/sounds</path>
+	</sound>	  
+   </view>
+</feature>
+
+   <view name="screen">
+    <text name="clock">
+      <fontSize>0.0240</fontSize>
+      <pos>0.86 0.935</pos>
+      <size>0.09 0.058</size>
+      <alignment>right</alignment>
+      <verticalAlignment>right</verticalAlignment>
+      <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.955 0.0125</pos>
+      <size>0 0.038</size>
+      <incharge>./_inc/battery/incharge.svg</incharge>
+      <full>./_inc/battery/full.svg</full>
+      <at75>./_inc/battery/75.svg</at75>
+      <at50>./_inc/battery/50.svg</at50>
+      <at25>./_inc/battery/25.svg</at25>
+      <empty>./_inc/battery/empty.svg</empty>
+      <color>FFFFFFA0</color>
+    </batteryIndicator>
+
+
+      <controllerActivity name="controllerActivity">
+         <pos>0.05 0.024</pos>
+         <size>0.045 0.012</size>
+         <itemSpacing>0.003</itemSpacing>
+         <imagePath>./_inc/joy.png</imagePath>
+         <color>FFFFFF80</color>
+         <activityColor>10f804</activityColor>
+         <hotkeyColor>FFA0A0C0</hotkeyColor>
+      </controllerActivity>
+   </view>
+
+   <view name="menu">
+	<menuText name="menufooter">
+		<fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
+		<fontSize>0.025</fontSize>
+	</menuText>
+	<menuText name="menutext"> 
+		<fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
+		<fontSize>0.03</fontSize>
+	</menuText>
+	<menuTextSmall name="menutextsmall">
+		<fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+		<fontSize>0.028</fontSize>
+	</menuTextSmall>
+	<menuText name="menutitle">
+		<fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+		<fontSize>0.04</fontSize>
+	</menuText>
+	
+	<menuIcons name="menuicons">
+        <iconKodi>./_inc/menu_icons/Kodi.png</iconKodi>
+        <iconSystem>./_inc/menu_icons/System.png</iconSystem>
+        <iconUpdates>./_inc/menu_icons/Updates.png</iconUpdates>
+        <iconGames>./_inc/menu_icons/Games.png</iconGames>
+        <iconControllers>./_inc/menu_icons/Controllers.png</iconControllers>
+        <iconUI>./_inc/menu_icons/UI.png</iconUI>
+        <iconSound>./_inc/menu_icons/Sound.png</iconSound>
+        <iconNetwork>./_inc/menu_icons/Network.png</iconNetwork>
+        <iconScraper>./_inc/menu_icons/Scraper.png</iconScraper>
+        <iconAdvanced>./_inc/menu_icons/Advanced.png</iconAdvanced>
+        <iconQuit>./_inc/menu_icons/Quit.png</iconQuit>
+        <iconRestart>./_inc/menu_icons/Restart.png</iconRestart>
+        <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
+        <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
+		<iconRetroachievements>./_inc/icons/Contest.png</iconRetroachievements>
+	</menuIcons>
+		  
+	<helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.022</fontSize>     
+         <pos>0.53 0.942</pos>      
+         <textColor>FFFFFF</textColor>
+	</helpsystem>
+</view> 
+
+    <view name="basic">
+      <image name="logo">
+		<pos>0.14 0.925</pos>
+		<maxSize>0.10 0.10</maxSize>
+		<path>./assets/logos2/${system.theme}.png</path>
+      </image>
+	  
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0215</fontSize>     
+         <pos>0.30 0.942</pos>      
+         <textColor>636363</textColor>
+      </helpsystem>
+	  
+      <textlist name="gamelist">
+         <pos>0.084 0.12</pos>
+         <size>0.345 0.75</size>
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <alignment>left</alignment>
+		 <lineSpacing>2.075</lineSpacing>
+		 <zIndex>42</zIndex>
+      </textlist>
+	  
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+		 <zIndex>41</zIndex>
+      </image>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./assets/arts/${system.theme}.jpg</path>
+      </image>     
+    </view>  
+ 
+    <view name="detailed">
+      <image name="logo">
+		<pos>0.14 0.925</pos>
+		<maxSize>0.10 0.10</maxSize>
+		<path>./assets/logos2/${system.theme}.png</path>
+      </image>
+	  
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0185</fontSize>     
+         <pos>0.30 0.942</pos>      
+      </helpsystem>	  
+	
+      <textlist name="gamelist">
+         <pos>0.084 0.12</pos>
+         <size>0.345 0.75</size>
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <alignment>left</alignment>
+		 <lineSpacing>2.075</lineSpacing>
+		 <zIndex>42</zIndex>
+      </textlist>
+
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+		 <zIndex>41</zIndex>
+      </image>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./assets/arts/540p/${system.theme}.jpg</path>
+      </image>
+	  
+      <text name="md_publisher, md_playcount, md_players">
+         <pos>2 2</pos> <size>0 0</size>
+         <fontSize>0.0</fontSize>
+         <zIndex>0</zIndex>
+      </text>
+  
+		
+	  <datetime name="md_lastplayed">
+	  <pos>2 2</pos>
+		<fontSize>0.00</fontSize>
+		<size>0 0</size><zIndex>0</zIndex>
+	</datetime>
+	
+      <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+         <pos>2 2</pos>
+         <size>0 0</size>
+		 <fontSize>0.0</fontSize>
+		 <zIndex>0</zIndex>
+      </text>
+
+		<datetime name="md_releasedate">
+			<pos>0.808 0.667</pos>
+			<alignment>center</alignment>
+			<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<zIndex>51</zIndex> 
+		</datetime>
+
+		<text name="md_developer">
+			<size>0.190 0.037</size>
+			<pos>0.539 0.676</pos>
+			<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<alignment>center</alignment>
+			<zIndex>51</zIndex> 
+		</text>
+	  
+	  		<text name="md_genre">
+			<pos>0.523 0.632</pos>
+			<size>0.220 0.034</size>
+			<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<alignment>center</alignment>
+			<zIndex>51</zIndex>
+		</text>
+	  
+		<rating name="md_rating">
+			<pos>0.863 0.632</pos>
+			<size>0.028 0.028</size>
+			<filledPath>./_inc/images/star_filled.svg</filledPath>
+			<unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+			<zIndex>51</zIndex>
+		</rating>
+		
+		<text name="md_description">
+			<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0.43 0.19</size>
+			<pos>0.51 0.720</pos>
+			<zIndex>51</zIndex>
+		</text>
+
+		<video name="md_video">
+			<pos>0.718 0.335</pos>
+			<maxSize>0.496 0.496</maxSize>
+			<origin>0.5 0.5</origin>
+			<delay>0.6</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>			
+			<zIndex>51</zIndex> 
+		</video>		
+    </view>
+
+     <view name="grid">
+      <image name="logo">
+		<pos>0.14 0.925</pos>
+		<maxSize>0.10 0.10</maxSize>
+		<path>./assets/logos2/${system.theme}.png</path>
+      </image>
+
+      <helpsystem name="help">
+		 <pos>0.33 0.942</pos>
+		 <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		 <fontSize>0.0185</fontSize>
+      </helpsystem>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./assets/arts/$system.jpg</path>
+         <zIndex>2</zIndex>
+      </image>
+
+      <image name="filter" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>3</zIndex>
+         <color>303030FF</color>
+         <tile>true</tile>
+         <path>./_inc/filter.png</path>
+      </image>
+
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+         <color>A0A0B000</color>
+         <fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+      </text>
+      <text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+         <color>ffffff00</color>
+         <fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+      </text>
+      <datetime name="md_releasedate, md_lastplayed">
+         <color>ffffff00</color>
+         <fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+      </datetime>
+      <rating name="md_rating">
+         <pos>0.88 0.88</pos>
+         <size>0.045 0.025</size>
+         <color>FFFFFF</color>
+         <unfilledColor>808080</unfilledColor>
+         <fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+      </rating>
+      <imagegrid name="gamegrid">
+         <pos>0.025 0.10</pos>
+         <size>0.950 0.774</size>
+         <margin>0.005 0.010</margin>
+         <padding>0.03 0.05 0.03 0.04</padding>
+         <autoLayout>5 2</autoLayout>
+         <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
+         <animateSelection>false</animateSelection>
+      </imagegrid>
+      <gridtile name="default">
+         <backgroundColor>FFFFFF00</backgroundColor>
+         <backgroundCornerSize>9 9</backgroundCornerSize>
+         <selectionMode>image</selectionMode>
+         <padding>5 5</padding>
+         <imageColor>FFFFFFB0</imageColor>
+      </gridtile>
+      <gridtile name="selected">
+         <backgroundCenterColor>00000046</backgroundCenterColor>
+         <backgroundEdgeColor>00000086</backgroundEdgeColor>
+         <imageColor>FFFFFFFF</imageColor>
+      </gridtile>
+      <text name="gridtile">
+         <color>D0D0D0</color>
+         <backgroundColor>00000000</backgroundColor>
+         <glowColor>00000016</glowColor>
+         <glowSize>1</glowSize>
+         <fontSize>0.026</fontSize>
+         <alignment>center</alignment>
+         <size>1 0.24</size>
+         <fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+      </text>
+      <text name="gridtile_selected">
+         <color>FFFFFF</color>
+         <glowColor>00000016</glowColor>
+         <glowSize>3</glowSize>
+      </text>
+    </view>
+
+	<customView name="NX View (Default)" inherits="grid" displayName="${nxViewName}">
+		<imagegrid name="gamegrid">
+			<autoLayout>7 1</autoLayout>
+			<scrollLoop>true</scrollLoop>
+			<scrollDirection>horizontal</scrollDirection>
+			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+			<imageSource>image</imageSource>
+			<margin>0.00625 0.011</margin>
+			<size>1.43 0.419</size>
+			<pos>-0.496 0.5015</pos>
+			<showVideoAtDelay>800</showVideoAtDelay>
+			<animateSelection>true</animateSelection>
+			<zIndex>100</zIndex>
+         <centerSelection>true</centerSelection>
+		</imagegrid>
+
+		<gridtile name="default">
+			<backgroundCenterColor>40404080</backgroundCenterColor>
+			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<padding>4 4</padding>
+			<imageSizeMode>minSize</imageSizeMode>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<backgroundColor>42424200</backgroundColor>
+			<imageColor>6d6d6dFF</imageColor>
+		</gridtile>
+
+      <image name="overlay" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/overlay.png</path>
+         <zIndex>10</zIndex>
+      </image>
+
+		<gridtile name="selected">
+			<padding>7 7</padding>
+			<imageColor>ffffffff</imageColor>
+			<backgroundCornerSize>0</backgroundCornerSize>
+			<backgroundEdgeColor>00c3e3</backgroundEdgeColor>
+		</gridtile>
+
+		<image name="gridtile.image">
+			<roundCorners>0</roundCorners>
+
+		</image>
+
+      <text name="gridtile, gridtile_selected">
+			<visible>false</visible>
+      </text>
+
+      <image name="md_image">
+         <tile>true</tile>
+         <pos>0.25 -0.07</pos>
+         <origin>0 0</origin>
+         <size>0.75 0.75</size>
+         <zIndex>3</zIndex>
+      </image>
+	  
+     <video name="md_video">
+         <pos>0.25 -0.16</pos>
+         <minSize>0.75 0.70</minSize>
+			<origin>0 0</origin>
+			<delay>1.0</delay>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<loops>10</loops>
+			<effect>none</effect>
+         <zIndex>4</zIndex>
+      </video>
+
+		<image name="gridtile.marquee">
+			<color>505050</color>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.60 0.60</size>
+		</image>
+
+		<image name="gridtile.marquee:selected">
+			<color>FFFFFFFF</color>
+			<size>0.70 0.70</size>
+		</image>
+
+		<image name="gridtile.marquee:videoplaying">
+			<color>FFFFFFA0</color>
+			<pos>0.5 0.50</pos>
+			<size>0.60 0.60</size>
+		</image>
+
+		<imagegrid name="gamegrid">
+			<showVideoAtDelay>-1</showVideoAtDelay>
+		</imagegrid>
+
+    <image name="md_marquee">
+         <pos>0.205 0.26</pos>
+         <size>0.28 0</size>
+         <zIndex>36</zIndex>
+      </image>
+	</customView>	
+	
+	
+	<customView name="NX View (Detailed)" inherits="grid" displayName="${nxdViewName}">
+		<imagegrid name="gamegrid">
+			<autoLayout>7 1</autoLayout>
+			<scrollLoop>true</scrollLoop>
+			<scrollDirection>horizontal</scrollDirection>
+			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+			<imageSource>image</imageSource>
+			<margin>0.00625 0.011</margin>
+			<size>1.43 0.419</size>
+			<pos>-0.496 0.5015</pos>
+			<showVideoAtDelay>800</showVideoAtDelay>
+			<animateSelection>true</animateSelection>
+			<zIndex>100</zIndex>
+         <centerSelection>true</centerSelection>
+		</imagegrid>
+
+		<gridtile name="default">
+			<backgroundCenterColor>40404080</backgroundCenterColor>
+			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<padding>4 4</padding>
+			<imageSizeMode>minSize</imageSizeMode>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<backgroundColor>42424200</backgroundColor>
+			<imageColor>6d6d6dFF</imageColor>
+		</gridtile>
+
+      <image name="overlay" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/overlay.png</path>
+         <zIndex>10</zIndex>
+      </image>
+
+		<gridtile name="selected">
+			<padding>7 7</padding>
+			<imageColor>ffffffff</imageColor>
+			<backgroundCornerSize>0</backgroundCornerSize>
+			<backgroundEdgeColor>00c3e3</backgroundEdgeColor>
+		</gridtile>
+
+		<image name="gridtile.image">
+			<roundCorners>0</roundCorners>
+
+		</image>
+
+      <text name="gridtile, gridtile_selected">
+			<visible>false</visible>
+      </text>
+
+      <image name="md_image">
+         <tile>true</tile>
+         <pos>0.25 -0.07</pos>
+         <origin>0 0</origin>
+         <size>0.75 0.75</size>
+         <zIndex>3</zIndex>
+      </image>
+	  
+     <video name="md_video">
+         <pos>0.25 -0.16</pos>
+         <minSize>0.75 0.70</minSize>
+			<origin>0 0</origin>
+			<delay>1.0</delay>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<loops>10</loops>
+			<effect>none</effect>
+         <zIndex>4</zIndex>
+      </video>
+
+		<image name="gridtile.marquee">
+			<color>505050</color>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.60 0.60</size>
+		</image>
+
+		<image name="gridtile.marquee:selected">
+			<color>FFFFFFFF</color>
+			<size>0.70 0.70</size>
+		</image>
+
+		<image name="gridtile.marquee:videoplaying">
+			<color>FFFFFFA0</color>
+			<pos>0.5 0.50</pos>
+			<size>0.60 0.60</size>
+		</image>
+
+		<text name="gridtile.text">
+			<pos>0 0</pos>
+			<padding>0.1 0</padding>
+			<fontPath>./_inc/fonts/OpenSans-Semibold.ttf</fontPath>
+			<size>1 1</size>
+			<fontSize>0.020</fontSize>
+			<alignment>center</alignment>
+		</text>
+
+		<imagegrid name="gamegrid">
+			<showVideoAtDelay>-1</showVideoAtDelay>
+		</imagegrid>
+
+      <text name="md_description">
+         <pos>0.070 0.36</pos>
+         <size>0.26 0.19</size>
+         <fontSize>0.016</fontSize>
+         <color>7b7b7b</color>
+         <alignment>left</alignment>
+         <fontPath>./_inc/fonts/OpenSans-Semibold.ttf</fontPath>
+         <glowColor>d9d9d9</glowColor>
+         <glowSize>1</glowSize>
+      </text>
+
+      <image name="md_marquee">
+         <pos>0.175 0.16</pos>
+         <maxSize>0.25 0.30</maxSize>
+         <zIndex>36</zIndex>
+      </image>
+	</customView>   
+   
+ 	<customView name="NX View (Static Image)" inherits="grid" displayName="${nxsViewName}">
+		<imagegrid name="gamegrid">
+			<autoLayout>7 1</autoLayout>
+			<scrollLoop>true</scrollLoop>
+			<scrollDirection>horizontal</scrollDirection>
+			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+			<imageSource>image</imageSource>
+			<margin>0.00625 0.011111111111111</margin>
+			<size>1.43 0.419</size>
+			<pos>-0.496 0.5015</pos>
+			<showVideoAtDelay>800</showVideoAtDelay>
+			<animateSelection>true</animateSelection>
+			<zIndex>100</zIndex>
+         <centerSelection>true</centerSelection>
+		</imagegrid>
+
+		<gridtile name="default">
+			<backgroundCenterColor>40404080</backgroundCenterColor>
+			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<padding>4 4</padding>
+			<imageSizeMode>minSize</imageSizeMode>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<backgroundColor>42424200</backgroundColor>
+			<imageColor>6d6d6dFF</imageColor>
+		</gridtile>
+
+      <image name="overlay" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/overlay.png</path>
+         <zIndex>10</zIndex>
+      </image>
+
+		<gridtile name="selected">
+			<padding>7 7</padding>
+			<imageColor>ffffffff</imageColor>
+			<backgroundCornerSize>0</backgroundCornerSize>
+			<backgroundEdgeColor>00c3e3</backgroundEdgeColor>
+		</gridtile>
+
+		<image name="gridtile.image">
+			<roundCorners>0</roundCorners>
+		</image>
+
+      <text name="gridtile, gridtile_selected">
+			<visible>false</visible>
+      </text>
+
+      <image name="md_image">
+         <tile>true</tile>
+         <pos>0.25 0</pos>
+         <origin>0 0</origin>
+         <size>0.75 0.75</size>
+         <zIndex>3</zIndex>
+      </image>
+
+		<image name="gridtile.marquee">
+			<color>505050</color>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.60 0.60</size>
+		</image>
+
+		<image name="gridtile.marquee:selected">
+			<color>FFFFFFFF</color>
+			<size>0.70 0.70</size>
+		</image>
+
+		<image name="gridtile.marquee:videoplaying">
+			<color>FFFFFFA0</color>
+			<pos>0.5 0.50</pos>
+			<size>0.60 0.60</size>
+		</image>
+
+		<imagegrid name="gamegrid">
+			<showVideoAtDelay>-1</showVideoAtDelay>
+		</imagegrid>
+
+    <image name="md_marquee">
+         <pos>0.205 0.26</pos>
+         <size>0.28 0</size>
+         <zIndex>36</zIndex>
+      </image>
+	</customView>
+
+	
+	<customView name="NX View (Boxes)" inherits="grid" displayName="${nxbViewName}">
+      <image name="overlay" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/overlay.png</path>
+         <zIndex>10</zIndex>
+      </image>
+
+      <image name="md_image">
+         <tile>true</tile>
+         <pos>0.25 -0.07</pos>
+         <origin>0 0</origin>
+         <size>0.75 0.75</size>
+         <zIndex>3</zIndex>
+      </image>
+		
+      <video name="md_video">
+         <pos>0.25 -0.16</pos>
+         <minSize>0.75 0.70</minSize>
+			<origin>0 0</origin>
+			<delay>1.0</delay>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<loops>10</loops>
+			<effect>none</effect>
+         <zIndex>4</zIndex>
+      </video>
+
+      <image name="md_marquee">
+         <pos>0.205 0.26</pos>
+         <size>0.28 0</size>
+         <zIndex>36</zIndex>
+      </image>
+	  
+      <imagegrid name="gamegrid">
+			<centerSelection>true</centerSelection>
+			<scrollLoop>true</scrollLoop>
+			<pos>-0.476 0.42</pos>
+			<size>1.3 0.55</size>
+			<margin>0 0</margin>
+			<autoLayout>7 1</autoLayout>
+			<autoLayoutSelectedZoom>1.05</autoLayoutSelectedZoom>
+			<scrollDirection>horizontal</scrollDirection>
+      </imagegrid>
+
+      <gridtile name="default">
+			<size>0.18 1</size>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<padding>20 50</padding>
+			<imageColor>4e4e4eff</imageColor>
+      </gridtile>
+
+      <gridtile name="selected">
+			<size>0.230 0.259</size>
+			<padding>5 5</padding>
+			<imageColor>FFFFFFFF</imageColor>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+      </gridtile>
+	  
+      <ninepatch name="gridtile.background:selected">
+			<animateColor>00c3e3</animateColor>
+			<animateColorTime>650</animateColorTime>
+      </ninepatch>
+
+      <text name="gridtile, gridtile_selected">
+			<visible>false</visible>
+      </text>
+	</customView>
+	
+</theme>

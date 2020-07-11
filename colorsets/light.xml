@@ -1,0 +1,87 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/ovli.png</path>
+         <zIndex>41</zIndex>
+      </image>
+	  	  
+      <helpsystem name="help">
+         <textColor>636363</textColor>
+         <iconColor>464646</iconColor>
+		 <pos>0.53 0.942</pos>
+		 <fontPath>./../_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		 <fontSize>0.0215</fontSize>
+      </helpsystem>	 
+	  
+      <text name="systemInfo">
+         <alignment>left</alignment>
+         <pos>0.13 0.924</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>908f8f</color>
+         <fontPath>./../_inc/fonts/Oxygen-Regular.ttf</fontPath>
+	     <fontSize>0.0215</fontSize>
+         <zIndex>42</zIndex>	              
+      </text>	  
+</view>
+
+<view name="basic">
+      <helpsystem name="help">
+         <textColor>636363</textColor>
+      </helpsystem>	
+	  
+      <textlist name="gamelist">
+         <selectorColor>403c3e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>726f70</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+      </textlist>
+	  
+      <image name="background" extra="true">
+         <path>./../_inc/basic.png</path>
+      </image>
+   </view>  
+ 
+   <view name="detailed">
+     <helpsystem name="help">
+         <textColor>636363</textColor>
+      </helpsystem>
+
+      <textlist name="gamelist">
+         <selectorColor>403c3e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>726f70</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+      </textlist>
+
+      <image name="background" extra="true">
+         <path>./../_inc/default-detailed.png</path>
+      </image>
+
+		<datetime name="md_releasedate">
+			<color>726f70</color>
+		</datetime>
+
+		<text name="md_developer, md_genre, md_description">
+			<color>726f70</color>
+		</text>  
+   </view>
+   
+    <view name="grid">
+       <image name="background" extra="true">
+         <path>./../assets/govlight.png</path>
+         <zIndex>11</zIndex>
+      </image>
+	  
+	  <helpsystem name="help">
+         <textColor>636363</textColor>
+         <iconColor>464646</iconColor>
+      </helpsystem>	  
+  </view>
+   
+</theme>
