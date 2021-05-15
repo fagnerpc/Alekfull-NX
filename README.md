@@ -20,7 +20,7 @@ Suporte para todos os sistemas do BATOCERA (PLUS), RETROBAT E EMUELEC.
 
 ![Gamelist View](https://i.imgur.com/2rlPHCg.jpg)
 
-![Gamelist View](https://i.imgur.com/por02tj.jpg)
+![Gamelist View](https://i.imgur.com/dDt0OZr.jpg)
 
 
 --------------------------------------------------------------
