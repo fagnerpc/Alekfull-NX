@@ -21,8 +21,8 @@ Logos by Lilbud and fagnerpc
 
    <view name="screen">
     <text name="clock">
-      <fontSize>0.0240</fontSize>
-      <pos>0.86 0.935</pos>
+      <fontSize>0.0210</fontSize>
+      <pos>0.86 0.965</pos>
       <size>0.09 0.058</size>
       <alignment>right</alignment>
       <verticalAlignment>right</verticalAlignment>
@@ -86,7 +86,9 @@ Logos by Lilbud and fagnerpc
         <iconRestart>./_inc/menu_icons/Restart.png</iconRestart>
         <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
         <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
-		<iconRetroachievements>./_inc/icons/Contest.png</iconRetroachievements>
+        <iconRetroachievements>./_inc/menu_icons/Contest.png</iconRetroachievements>
+        <iconEmuelec>./_inc/menu_icons/Emuelec.png</iconEmuelec>
+		
 	</menuIcons>
 		  
 	<helpsystem name="help">
@@ -99,16 +101,15 @@ Logos by Lilbud and fagnerpc
 
     <view name="basic">
       <image name="logo">
-		<pos>0.14 0.925</pos>
+		<pos>0.11 0.925</pos>
 		<maxSize>0.10 0.10</maxSize>
 		<path>./assets/logos2/${system.theme}.png</path>
       </image>
 	  
       <helpsystem name="help">
          <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
-         <fontSize>0.0215</fontSize>     
-         <pos>0.30 0.942</pos>      
-         <textColor>636363</textColor>
+         <fontSize>0.0185</fontSize>     
+         <pos>0.17 0.942</pos>      
       </helpsystem>
 	  
       <textlist name="gamelist">
@@ -138,7 +139,7 @@ Logos by Lilbud and fagnerpc
  
     <view name="detailed">
       <image name="logo">
-		<pos>0.14 0.925</pos>
+		<pos>0.11 0.925</pos>
 		<maxSize>0.10 0.10</maxSize>
 		<path>./assets/logos2/${system.theme}.png</path>
       </image>
@@ -146,7 +147,7 @@ Logos by Lilbud and fagnerpc
       <helpsystem name="help">
          <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
          <fontSize>0.0185</fontSize>     
-         <pos>0.30 0.942</pos>      
+         <pos>0.17 0.942</pos>      
       </helpsystem>	  
 	
       <textlist name="gamelist">

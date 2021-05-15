@@ -15,7 +15,7 @@
       <helpsystem name="help">
          <textColor>cbcbcb</textColor>
          <iconColor>FFFFFF</iconColor>
-		 <pos>0.53 0.942</pos>
+		 <pos>0.39 0.942</pos>
 		 <fontPath>./../_inc/fonts/Oxygen-Regular.ttf</fontPath>
 		 <fontSize>0.0215</fontSize>
       </helpsystem>	 
@@ -55,7 +55,7 @@
 
   <view name="basic">
       <helpsystem name="help">
-         <textColor>636363</textColor>
+         <textColor>cbcbcb</textColor>
       </helpsystem>
 	  
       <textlist name="gamelist">
@@ -67,12 +67,13 @@
 	  
       <image name="background" extra="true">
          <path>./../_inc/basic.png</path>
+		 <color>0e4269</color>
       </image>
    </view>  
  
    <view name="detailed">
       <helpsystem name="help">
-         <textColor>636363</textColor>
+         <textColor>cbcbcb</textColor>
       </helpsystem>	  
 	
       <textlist name="gamelist">
@@ -94,6 +95,11 @@
 	<text name="md_developer, md_genre, md_description">
 			<color>726f70</color>
 	</text>
+	
+	<text name="md_description">
+         <color>cbcbcb</color>
+	</text>
+	
    </view> 
    
     <view name="grid">
