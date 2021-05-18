@@ -87,8 +87,7 @@ Logos by Lilbud and fagnerpc
         <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
         <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
         <iconRetroachievements>./_inc/menu_icons/Contest.png</iconRetroachievements>
-        <iconEmuelec>./_inc/menu_icons/Emuelec.png</iconEmuelec>
-		
+        <iconEmuelec>./_inc/menu_icons/Emuelec.png</iconEmuelec>		
 	</menuIcons>
 		  
 	<helpsystem name="help">
@@ -249,13 +248,13 @@ Logos by Lilbud and fagnerpc
 
      <view name="grid">
       <image name="logo">
-		<pos>0.14 0.925</pos>
+		<pos>0.11 0.925</pos>
 		<maxSize>0.10 0.10</maxSize>
 		<path>./assets/logos2/${system.theme}.png</path>
       </image>
 
       <helpsystem name="help">
-		 <pos>0.33 0.942</pos>
+		 <pos>0.17 0.942</pos>
 		 <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
 		 <fontSize>0.0185</fontSize>
       </helpsystem>
@@ -343,8 +342,8 @@ Logos by Lilbud and fagnerpc
 			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
 			<imageSource>image</imageSource>
 			<margin>0.00625 0.011</margin>
-			<size>1.43 0.419</size>
-			<pos>-0.496 0.5015</pos>
+			<size>1.52 0.430</size>
+			<pos>-0.5196 0.4915</pos>
 			<showVideoAtDelay>800</showVideoAtDelay>
 			<animateSelection>true</animateSelection>
 			<zIndex>100</zIndex>
@@ -369,6 +368,12 @@ Logos by Lilbud and fagnerpc
          <zIndex>10</zIndex>
       </image>
 
+      <image name="filter" extra="true">
+         <zIndex>0</zIndex>
+         <color>909090FF</color>
+      </image>
+
+
 		<gridtile name="selected">
 			<padding>7 7</padding>
 			<imageColor>ffffffff</imageColor>
@@ -385,17 +390,18 @@ Logos by Lilbud and fagnerpc
 			<visible>false</visible>
       </text>
 
-      <image name="md_image">
+      <image name="md_fanart">
          <tile>true</tile>
          <pos>0.25 -0.07</pos>
          <origin>0 0</origin>
          <size>0.75 0.75</size>
          <zIndex>3</zIndex>
+		 <color>909090FF</color>
       </image>
 	  
      <video name="md_video">
-         <pos>0.25 -0.16</pos>
-         <minSize>0.75 0.70</minSize>
+         <pos>0.25 -0.05</pos>
+         <size>0.75 0.70</size>
 			<origin>0 0</origin>
 			<delay>1.0</delay>
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
@@ -443,8 +449,8 @@ Logos by Lilbud and fagnerpc
 			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
 			<imageSource>image</imageSource>
 			<margin>0.00625 0.011</margin>
-			<size>1.43 0.419</size>
-			<pos>-0.496 0.5015</pos>
+			<size>1.52 0.430</size>
+			<pos>-0.5196 0.4915</pos>
 			<showVideoAtDelay>800</showVideoAtDelay>
 			<animateSelection>true</animateSelection>
 			<zIndex>100</zIndex>
@@ -478,14 +484,18 @@ Logos by Lilbud and fagnerpc
 
 		<image name="gridtile.image">
 			<roundCorners>0</roundCorners>
-
 		</image>
+
+      <image name="filter" extra="true">
+         <zIndex>0</zIndex>
+         <color>909090FF</color>
+      </image>
 
       <text name="gridtile, gridtile_selected">
 			<visible>false</visible>
       </text>
 
-      <image name="md_image">
+      <image name="md_fanart">
          <tile>true</tile>
          <pos>0.25 -0.07</pos>
          <origin>0 0</origin>
@@ -494,8 +504,8 @@ Logos by Lilbud and fagnerpc
       </image>
 	  
      <video name="md_video">
-         <pos>0.25 -0.16</pos>
-         <minSize>0.75 0.70</minSize>
+         <pos>0.25 -0.05</pos>
+         <size>0.75 0.70</size>
 			<origin>0 0</origin>
 			<delay>1.0</delay>
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
@@ -561,9 +571,9 @@ Logos by Lilbud and fagnerpc
 			<scrollDirection>horizontal</scrollDirection>
 			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
 			<imageSource>image</imageSource>
-			<margin>0.00625 0.011111111111111</margin>
-			<size>1.43 0.419</size>
-			<pos>-0.496 0.5015</pos>
+			<margin>0.00625 0.011</margin>
+			<size>1.52 0.430</size>
+			<pos>-0.5196 0.4915</pos>
 			<showVideoAtDelay>800</showVideoAtDelay>
 			<animateSelection>true</animateSelection>
 			<zIndex>100</zIndex>
@@ -579,6 +589,11 @@ Logos by Lilbud and fagnerpc
 			<backgroundColor>42424200</backgroundColor>
 			<imageColor>6d6d6dFF</imageColor>
 		</gridtile>
+
+      <image name="filter" extra="true">
+         <zIndex>0</zIndex>
+         <color>909090FF</color>
+      </image>
 
       <image name="overlay" extra="true">
          <origin>0 0</origin>
@@ -603,11 +618,12 @@ Logos by Lilbud and fagnerpc
 			<visible>false</visible>
       </text>
 
-      <image name="md_image">
+      <image name="md_fanart">
          <tile>true</tile>
          <pos>0.25 0</pos>
          <origin>0 0</origin>
          <size>0.75 0.75</size>
+		 <color>909090FF</color>
          <zIndex>3</zIndex>
       </image>
 
@@ -650,17 +666,23 @@ Logos by Lilbud and fagnerpc
          <zIndex>10</zIndex>
       </image>
 
-      <image name="md_image">
+      <image name="md_fanart">
          <tile>true</tile>
          <pos>0.25 -0.07</pos>
          <origin>0 0</origin>
          <size>0.75 0.75</size>
          <zIndex>3</zIndex>
+		 <color>909090FF</color>
+      </image>
+
+      <image name="filter" extra="true">
+         <zIndex>0</zIndex>
+         <color>909090FF</color>
       </image>
 		
       <video name="md_video">
-         <pos>0.25 -0.16</pos>
-         <minSize>0.75 0.70</minSize>
+         <pos>0.25 -0.05</pos>
+         <size>0.75 0.70</size>
 			<origin>0 0</origin>
 			<delay>1.0</delay>
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
@@ -679,9 +701,9 @@ Logos by Lilbud and fagnerpc
       <imagegrid name="gamegrid">
 			<centerSelection>true</centerSelection>
 			<scrollLoop>true</scrollLoop>
-			<pos>-0.476 0.42</pos>
-			<size>1.3 0.55</size>
-			<margin>0 0</margin>
+			<margin>0.00625 0.011</margin>
+			<size>1.52 0.430</size>
+			<pos>-0.5196 0.4915</pos>
 			<autoLayout>7 1</autoLayout>
 			<autoLayoutSelectedZoom>1.05</autoLayoutSelectedZoom>
 			<scrollDirection>horizontal</scrollDirection>

@@ -41,7 +41,7 @@
 		<selectedColor>FFFFFF</selectedColor>
 	</menuText>
 	<menuTextSmall name="menutextsmall">
-		<color>deec00</color>
+		<color>0eb6d6</color>
 	</menuTextSmall>
 	<menuText name="menutitle">
 		<color>DFECFA</color>
