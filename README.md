@@ -14,7 +14,7 @@ This is port of the AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc)
 
 | System View | Gamelist View |
 |----|----|
-|  |  |
+| ![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182453713-126cba24-3cb3-44d9-9a78-cf8e8f308035.png) | ![Screen Shot 2022-08-02 at 15 04 28](https://user-images.githubusercontent.com/1454947/182453747-bb54bdb7-9d10-4f01-b6ce-4141a6d59adf.png) |
 
 ## **Configuration Options**
 
@@ -29,15 +29,15 @@ This is port of the AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc)
 
 | Aspect Ratio | System View | Gamelist View |
 |----|----|----|
-| 16:9 |  |  |
-| 16:10 |  |  |
+| 16:9 | ![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182453713-126cba24-3cb3-44d9-9a78-cf8e8f308035.png) | ![Screen Shot 2022-08-02 at 15 04 28](https://user-images.githubusercontent.com/1454947/182453747-bb54bdb7-9d10-4f01-b6ce-4141a6d59adf.png) |
+| 16:10 | ![Screen Shot 2022-08-02 at 15 09 28](https://user-images.githubusercontent.com/1454947/182454365-cf51b957-c1d9-41d8-88e3-2681c6847954.png) | ![Screen Shot 2022-08-02 at 15 09 50](https://user-images.githubusercontent.com/1454947/182454409-482cd851-f047-48ba-942b-d8db473dbc03.png) |
 
 ### Preview of the Color Schemes
 
-| Color | Preview |
+| Dark | Light |
 |----|----|
-| Dark  |  |
-| Light |  |
+|![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182454885-23821245-8f6a-4cb0-a01c-cfc946b7682c.png) ![Screen Shot 2022-08-02 at 15 04 28](https://user-images.githubusercontent.com/1454947/182453747-bb54bdb7-9d10-4f01-b6ce-4141a6d59adf.png) | ![Screen Shot 2022-08-02 at 15 05 32](https://user-images.githubusercontent.com/1454947/182454981-2517ebe0-ab8f-4148-9a19-c710037f5f14.png) ![Screen Shot 2022-08-02 at 15 05 23](https://user-images.githubusercontent.com/1454947/182453915-5e68ead5-171d-4ff6-9cd1-f7b3b8cfafdb.png) |
+
 
 ## User Customizations
 When using the theme on RetroPie you can make the following changes in the root theme.xml to tailor the look to your setup
