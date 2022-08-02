@@ -1,0 +1,107 @@
+<!--
+16:9 Apsect Ratio - Defaults
+(based on 1280x720 Resolution)
+-->
+
+<theme>
+   <formatVersion>6</formatVersion>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>0.94 0.96</pos>
+         <fontSize>0.024</fontSize>
+      </helpsystem>
+      <text name="logoText">
+         <fontSize>0.03</fontSize>
+      </text>
+   </view>
+
+   <view name="system">
+      <carousel name="systemcarousel">
+         <pos>-0.660 0.215</pos>
+         <size>1.76 1</size>
+         <logoScale>1.12</logoScale>
+         <logoSize>0.158 0.28</logoSize>   
+      </carousel>
+      <text name="systemInfo">
+         <size>0.28 0.02</size>
+         <pos>0.080 0.96</pos>
+         <fontSize>0.03</fontSize>
+      </text>
+      <image name="mask" extra="true">
+         <origin>0 .5</origin>
+         <pos>0 .5</pos>
+         <size>1 0</size>
+      </image>
+   </view>
+
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <pos>0.07 0.95</pos>
+         <maxSize>0.10 0.034</maxSize>
+      </image>
+      <text name="logoText">
+         <pos>0.07 0.948</pos>
+         <size>0.10 0.03</size>
+         <fontSize>0.024</fontSize>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.08 0.12</pos>
+         <size>0.35 0.75</size>
+         <horizontalMargin>0.006</horizontalMargin>
+         <fontSize>0.023</fontSize>
+         <lineSpacing>2.075</lineSpacing>
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <image name="mask" extra="true">
+         <size>1 1</size>
+      </image>
+   </view>
+ 
+   <view name="detailed,video">
+      <text name="md_genre">
+         <pos>0.54 0.635</pos>
+         <size>0.19 0.023</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <text name="md_developer">
+         <pos>0.54 0.681</pos>
+         <size>0.19 0.023</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <rating name="md_rating">
+         <pos>0.82 0.63</pos>
+         <size>0 0.026</size>
+      </rating>
+      <datetime name="md_releasedate">
+         <pos>0.85 0.681</pos>
+         <size>0.088 0.023</size>
+         <fontSize>0.023</fontSize>
+      </datetime>
+      <text name="md_description">
+         <pos>0.50 0.73</pos>
+         <size>0.43 0.16</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <image name="mask" extra="true">
+         <size>1 1</size>
+      </image>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <pos>0.718 0.335</pos>
+         <maxSize>0.436 0.496</maxSize>
+      </image>
+   </view>
+
+   <view name="video">
+      <video name="md_video">
+         <pos>0.718 0.335</pos>
+         <maxSize>0.436 0.496</maxSize>
+      </video>
+   </view>
+   
+</theme>

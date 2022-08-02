@@ -1,0 +1,53 @@
+<theme>
+   <formatVersion>6</formatVersion>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <textColor>888888</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+   </view>
+
+   <view name="system">
+      <text name="systemInfo">
+         <color>cccccc</color>
+      </text>
+      <image name="background" extra="true">
+         <color>2d2d2d</color>
+      </image>
+   </view>
+
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <color>ffffff88</color>
+      </image>
+      <text name="logoText">
+         <color>888888</color>
+      </text>
+      <textlist name="gamelist">
+         <selectorColor>403c3e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+      </textlist>
+      <image name="background" extra="true">
+         <color>1b1b1b</color>
+      </image>
+   </view>
+
+   <view name="detailed,video">
+      <text name="md_developer,md_genre">
+         <color>aaaaaa</color>
+      </text>
+      <datetime name="md_releasedate">
+         <color>aaaaaa</color>
+      </datetime>
+      <rating name="md_rating">
+         <color>aaaaaa</color>
+      </rating>
+      <text name="md_description">
+         <color>cccccc</color>
+      </text>
+   </view>
+
+</theme>
