@@ -1,9 +1,9 @@
-# Alekfull NX ([RetroPie](https://retropie.org.uk/) Version)
-This is port of the AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc) for the version of EmulationStation used in [RetroPie](https://retropie.org.uk/).
+# Alekfull NX (RetroPie Version)
+This is port of the AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc) for the version of EmulationStation used in [RetroPie](https://retropie.org.uk/).  
 
-**The original version of this theme can be found [here](https://github.com/fagnerpc/Alekfull-NX)**
+**All artwork and layouts were designed and created by fagnerpc.  I simply made changes to the XML to make the theme compatible with RetroPie. The original version of the theme can be found [here](https://github.com/fagnerpc/Alekfull-NX)**
 
-## Changes Made 
+## Changes Made
 
 - Removed all Batocera specific elements to make the theme compatible with RetroPie and ES-DE
 - Updated system image names to match the standard used by RetroPie and ES-DE
@@ -89,7 +89,7 @@ light
 * If you use ES-DE... then this version of the theme will work out of the box with that distribution.  When used with ES-DE the theme comes with additional support for navigation sound sets.  I'm also working on a version to support the 2.0 theme engine that the ES-DE team is working on and will post that here when available.  
 
 ## **Credit**
-* All artwork/layouts designed and created by [fagnerpc](https://github.com/fagnerpc)
+All artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
 
 ## **License**
 Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
