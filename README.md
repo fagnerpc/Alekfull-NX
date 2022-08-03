@@ -85,7 +85,7 @@ light
 ## **Additional Notes**
 
 ### Versions for other ES forks:
-* If you use Batocera... then check out the original version by fagnerpc [here](https://github.com/fagnerpc/Alekfull-NX).
+* If you use Batocera... then you should use the original version by fagnerpc [here](https://github.com/fagnerpc/Alekfull-NX).
 * If you use ES-DE... then this version of the theme will work out of the box with that distribution.  When used with ES-DE the theme comes with additional support for navigation sound sets.  I'm also working on a version to support the 2.0 theme engine that the ES-DE team is working on and will post that here when available.  
 
 ## **Credit**
