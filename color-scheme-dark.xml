@@ -36,10 +36,10 @@
    </view>
 
    <view name="detailed,video">
-      <text name="md_developer,md_genre">
+      <text name="md_developer,md_genre,md_publisher,md_playcount,md_players">
          <color>aaaaaa</color>
       </text>
-      <datetime name="md_releasedate">
+      <datetime name="md_releasedate,md_lastplayed">
          <color>aaaaaa</color>
       </datetime>
       <rating name="md_rating">

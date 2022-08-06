@@ -114,20 +114,14 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </view>
  
    <view name="detailed,video">
-      <text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_playcount, md_lbl_lastplayed, md_lbl_players, md_lbl_releasedate, md_lbl_genre, md_lbl_gametime">
+      <text name="md_lbl_rating, md_lbl_genre, md_lbl_players, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_playcount,md_lbl_lastplayed,md_name">
          <pos>1 1</pos>
       </text>
-      <text name="md_name, md_publisher, md_playcount, md_players, md_gametime">
-         <pos>1 1</pos>
-      </text>
-      <datetime name="md_lastplayed">
-         <pos>1 1</pos>
-      </datetime>
-      <text name="md_developer,md_genre">
+      <text name="md_developer,md_genre,md_publisher,md_playcount,md_players">
          <fontPath>${boldFont}</fontPath>
          <zIndex>51</zIndex> 
       </text>
-      <datetime name="md_releasedate">
+      <datetime name="md_releasedate,md_lastplayed">
          <fontPath>${boldFont}</fontPath>
          <zIndex>51</zIndex> 
       </datetime>
