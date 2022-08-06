@@ -61,25 +61,45 @@
    </view>
  
    <view name="detailed,video">
-      <text name="md_genre">
-         <pos>0.54 0.635</pos>
-         <size>0.19 0.023</size>
-         <fontSize>0.023</fontSize>
-      </text>
-      <text name="md_developer">
-         <pos>0.54 0.681</pos>
-         <size>0.19 0.023</size>
-         <fontSize>0.023</fontSize>
-      </text>
       <rating name="md_rating">
-         <pos>0.82 0.63</pos>
+         <pos>0.502 0.5855</pos>
          <size>0 0.026</size>
       </rating>
       <datetime name="md_releasedate">
-         <pos>0.85 0.681</pos>
+         <pos>0.524 0.635</pos>
          <size>0.088 0.023</size>
          <fontSize>0.023</fontSize>
       </datetime>
+      <text name="md_players">
+         <pos>0.524 0.681</pos>
+         <size>0.088 0.023</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <text name="md_genre">
+         <pos>0.665 0.588</pos>
+         <size>0.13 0.023</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <text name="md_developer">
+         <pos>0.665 0.635</pos>
+         <size>0.13 0.023</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <text name="md_publisher">
+         <pos>0.665 0.681</pos>
+         <size>0.13 0.023</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>0.837 0.588</pos>
+         <size>0.088 0.023</size>
+         <fontSize>0.023</fontSize>
+      </datetime>
+      <text name="md_playcount">
+         <pos>0.837 0.635</pos>
+         <size>0.088 0.023</size>
+         <fontSize>0.023</fontSize>
+      </text>
       <text name="md_description">
          <pos>0.50 0.73</pos>
          <size>0.43 0.16</size>
@@ -92,15 +112,15 @@
 
    <view name="detailed">
       <image name="md_image">
-         <pos>0.718 0.335</pos>
-         <maxSize>0.436 0.496</maxSize>
+         <pos>0.718 0.315</pos>
+         <maxSize>0.436 0.466</maxSize>
       </image>
    </view>
 
    <view name="video">
       <video name="md_video">
-         <pos>0.718 0.335</pos>
-         <maxSize>0.436 0.496</maxSize>
+         <pos>0.718 0.315</pos>
+         <maxSize>0.436 0.466</maxSize>
       </video>
    </view>
    

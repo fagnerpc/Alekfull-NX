@@ -24,7 +24,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       dark
       light
       -->
-      <colorScheme>dark</colorScheme>
+      <colorScheme>light</colorScheme>
    </variables>
 
    <include>./color-scheme-${colorScheme}.xml</include>
