@@ -14,7 +14,7 @@ This is port of the AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc)
 
 | System View | Gamelist View |
 |----|----|
-| ![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182453713-126cba24-3cb3-44d9-9a78-cf8e8f308035.png) | ![Screen Shot 2022-08-02 at 15 04 28](https://user-images.githubusercontent.com/1454947/182453747-bb54bdb7-9d10-4f01-b6ce-4141a6d59adf.png) |
+| ![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182453713-126cba24-3cb3-44d9-9a78-cf8e8f308035.png) | ![Screen Shot 2022-08-06 at 20 41 35](https://user-images.githubusercontent.com/1454947/183270351-77b11e6c-37da-46dd-9a71-146fc71c6769.png) |
 
 ## **Configuration Options**
 
@@ -29,14 +29,14 @@ This is port of the AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc)
 
 | Aspect Ratio | System View | Gamelist View |
 |----|----|----|
-| 16:9 | ![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182453713-126cba24-3cb3-44d9-9a78-cf8e8f308035.png) | ![Screen Shot 2022-08-02 at 15 04 28](https://user-images.githubusercontent.com/1454947/182453747-bb54bdb7-9d10-4f01-b6ce-4141a6d59adf.png) |
-| 16:10 | ![Screen Shot 2022-08-02 at 15 09 28](https://user-images.githubusercontent.com/1454947/182454365-cf51b957-c1d9-41d8-88e3-2681c6847954.png) | ![Screen Shot 2022-08-02 at 15 09 50](https://user-images.githubusercontent.com/1454947/182454409-482cd851-f047-48ba-942b-d8db473dbc03.png) |
+| 16:9 | ![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182453713-126cba24-3cb3-44d9-9a78-cf8e8f308035.png) | ![Screen Shot 2022-08-06 at 20 41 35](https://user-images.githubusercontent.com/1454947/183270351-77b11e6c-37da-46dd-9a71-146fc71c6769.png) |
+| 16:10 | ![Screen Shot 2022-08-02 at 15 09 28](https://user-images.githubusercontent.com/1454947/182454365-cf51b957-c1d9-41d8-88e3-2681c6847954.png) | ![Screen Shot 2022-08-06 at 20 42 49](https://user-images.githubusercontent.com/1454947/183270362-29c8bc44-56d3-41a7-9bd6-0c782554acec.png) |
 
 ### Preview of the Color Schemes
 
 | Dark | Light |
 |----|----|
-|![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182454885-23821245-8f6a-4cb0-a01c-cfc946b7682c.png) ![Screen Shot 2022-08-02 at 15 04 28](https://user-images.githubusercontent.com/1454947/182453747-bb54bdb7-9d10-4f01-b6ce-4141a6d59adf.png) | ![Screen Shot 2022-08-02 at 15 05 32](https://user-images.githubusercontent.com/1454947/182454981-2517ebe0-ab8f-4148-9a19-c710037f5f14.png) ![Screen Shot 2022-08-02 at 15 05 23](https://user-images.githubusercontent.com/1454947/182453915-5e68ead5-171d-4ff6-9cd1-f7b3b8cfafdb.png) |
+|![Screen Shot 2022-08-02 at 15 03 48](https://user-images.githubusercontent.com/1454947/182454885-23821245-8f6a-4cb0-a01c-cfc946b7682c.png) ![Screen Shot 2022-08-06 at 20 41 35](https://user-images.githubusercontent.com/1454947/183270351-77b11e6c-37da-46dd-9a71-146fc71c6769.png) | ![Screen Shot 2022-08-02 at 15 05 32](https://user-images.githubusercontent.com/1454947/182454981-2517ebe0-ab8f-4148-9a19-c710037f5f14.png) ![Screen Shot 2022-08-06 at 20 40 00](https://user-images.githubusercontent.com/1454947/183270392-5ae7d1fe-b921-4785-93fb-5afc527d0aef.png) |
 
 
 ## User Customizations
@@ -87,6 +87,15 @@ light
 ### Versions for other ES forks:
 * If you use Batocera... then you should use the original version by fagnerpc [here](https://github.com/fagnerpc/Alekfull-NX).
 * If you use ES-DE... then this version of the theme will work out of the box with that distribution.  When used with ES-DE the theme comes with additional support for navigation sound sets.  I'm also working on a version to support the 2.0 theme engine that the ES-DE team is working on and will post that here when available.  
+
+### Adding images for a new or missing system
+* If you find a system you want to display needs images then you can create the following 3:
+   * `theme`-background.jpg
+   * `theme`-carousel.jpg
+   * `theme`-logo.svg
+* **Note:** `theme` in the above filenames refers to the value of the theme property noted in `es_systems.xml` for the system you are looking to add (e.g. `snes-background.jpg`, `genesis-background.jpg` etc...)
+* After you create the above 3 images please add them all to the `/_inc/images/systems` directory
+* I will also accept pull requests if you would like your images to be added to the source code for others to use
 
 ## **Credit**
 All artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
