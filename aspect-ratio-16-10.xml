@@ -65,21 +65,21 @@
          <pos>0.502 0.525</pos>
          <size>0 0.026</size>
       </rating>
-      <datetime name="md_releasedate">
-         <pos>0.524 0.570</pos>
-         <size>0.088 0.023</size>
-         <fontSize>0.023</fontSize>
-      </datetime>
+      <text name="md_genre">
+         <pos>0.502 0.571</pos>
+         <size>0.125 0.021</size>
+         <fontSize>0.021</fontSize>
+      </text>
       <text name="md_players">
          <pos>0.524 0.612</pos>
          <size>0.088 0.023</size>
          <fontSize>0.023</fontSize>
       </text>
-      <text name="md_genre">
+      <datetime name="md_releasedate">
          <pos>0.665 0.528</pos>
          <size>0.13 0.023</size>
          <fontSize>0.023</fontSize>
-      </text>
+      </datetime>
       <text name="md_developer">
          <pos>0.665 0.570</pos>
          <size>0.13 0.023</size>
