@@ -149,7 +149,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    <view name="video">
       <video name="md_video">
          <origin>0.5 0.5</origin>
-         <delay>1</delay>
+         <delay>2</delay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <showSnapshotDelay>true</showSnapshotDelay>        
          <zIndex>51</zIndex> 
