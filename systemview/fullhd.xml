@@ -24,7 +24,7 @@
       </image>	  
 	  
 	<image name="logo">
-		<path>./../assets/logos/default.jpg</path>
+		<path>./../assets/logos/default.png</path>
 		<path>./../assets/logos/${system.theme}.jpg</path>
 	</image> 
  </view>

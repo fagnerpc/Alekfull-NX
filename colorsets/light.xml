@@ -27,7 +27,28 @@
          <fontPath>./../_inc/fonts/Oxygen-Regular.ttf</fontPath>
 	     <fontSize>0.0215</fontSize>
          <zIndex>42</zIndex>	              
-      </text>	  
+      </text>
+
+      <text name="fullName" extra="true">
+         <text>${system.fullName}</text>
+         <alignment>center</alignment> 
+         <pos>0.132 0.559</pos>
+         <size>0.176 0.313</size>
+         <color>FFFFFF</color>
+         <fontPath>./../_inc/fonts/OpenSans-Bold.ttf</fontPath>
+         <fontSize>0.036</fontSize>  
+         <zIndex>41</zIndex>  
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset> 
+		 <forceUppercase>1</forceUppercase>
+         <backgroundColor>000000</backgroundColor>
+         <storyboard>
+         <animation property="opacity" from="0" to="0" duration="100"  mode="linear"/>
+         <animation property="opacity" from="0" to="1" begin="300" duration="0"  mode="linear"/>   
+         </storyboard>
+       </text>
+	  
 </view>
 
 <view name="basic">
