@@ -13,7 +13,8 @@
         <maxLogoCount>10</maxLogoCount>
         <zIndex>42</zIndex>
         <logoAlignment>bottom</logoAlignment>
-		<defaultTransition>slide</defaultTransition>			
+		<defaultTransition>slide</defaultTransition>	
+		<scrollSound>./../assets/uisounds/select.wav</scrollSound>		
       </carousel>
 
       <image name="art" extra="true">
